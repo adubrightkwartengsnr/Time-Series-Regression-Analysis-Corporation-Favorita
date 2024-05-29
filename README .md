@@ -2,7 +2,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <h1><b>Corporation Favorita Time Series Regression Analysis/b></h1>
+  <h1><b>Corporation Favorita Time Series Regression Analysis</b></h1>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -29,25 +29,40 @@
 
 **# Corporation Favorita: Time Series Regression Analysis** Corporation Favorita, a leading Ecuadorian grocery retailer, aims to mitigate the risk of stockouts and excess inventory costs by developing a machine learning model to predict the likelihood of products running out of stock. Understanding the key indicators of low stock levels and implementing effective inventory management strategies are crucial for maintaining customer satisfaction and maximizing profitability.
 
-1. **date**:date the sales were made
-2. **store_nbr**:Identifier for the store where the products are sold
-3. **family**:Category or type of product sold
-4. **sales**:Total sales for a product family at a particular store on a given date. Fractional values are possible, indicating partial units sold (e.g., 1.5 kg of cheese)
+1. **date**: date the sales were made
+
+2. **store_nbr**: Identifier for the store where the products are sold
+
+3. **family**: Category or type of product sold
+
+4. **sales**: Total sales for a product family at a particular store on a given date. Fractional values are possible, indicating partial units sold (e.g., 1.5 kg of cheese)
+
 5. **onpromotion**: Total number of items in a product family that were being promoted at a store on a given date
+
 Columns From Other Tables Used for Analysis
+
 6. **city**: the city a store is situated from the store table
+
 7. **state**: state a city is found in from the store table
+
 9. **type**: type of store from the store table
+
 10. **cluster**: Cluster of stores
+
 11. **locale**: From the holiday table, indicates whether a holiday is local,regional or national from holiday table
+
 12. **holiday-type**: Type of holiday event
+
 13. **locale-name**: Name of the holiday locale
+
 14. **description**: description of holiday
+
 15. **transferred**: Indicates whether the holiday was transferred to other day or not
 16. **dcoilwtico**: Oil price.
 
 ## 🛠 Built With <a name="Technologies Used"></a>
 To guide this project, I will be using the CRISP-DM (Cross-Industry Standard Process for Data Management). There are 6 stages in this framework, namely: business understanding, data understanding, data preparation, modelling, model evaluation, and model deployment. This project utilized the first five stages of the framework. It also involved a variety of technologies, programming languages, and libraries to process, analyze, and visualize the data. The following tools were utilized:
+
 4. _Python_: Python programming language was the backbone of the project, used for data processing, analysis, and visualization tasks.
 5. _Pandas_ and NumPy: Pandas and NumPy libraries were essential for data manipulation and numerical computations.
 6. _Matplotlib and Seaborn_: Matplotlib and Seaborn were employed for data visualization, creating insightful charts and graphs to represent the findings.
@@ -99,9 +114,9 @@ The analysis of the Corporation Favorita store using the three separate data sor
    - Throughout the years from 2013 to 2017, a recurring pattern emerged in the sales data. On January 1st of each year, sales hit their lowest point, indicating a consistent trend of minimal sales activity at the start of each year. Conversely, the sales peak consistently occurred towards the end of each year, particularly on December 23rd, with remarkable figures. However, in the year 2016, there was a notable deviation from this pattern, with the highest sales recorded on the 18th of April. This suggests a unique sales trend for that specific year. In 2017, the highest sales day shifted to April 1st, marking a departure from the usual year-end peak observed in previous years.
    - These findings highlight the seasonality and variation in sales patterns over the years, potentially influenced by holidays and promotional events.
 3. _Impact of Earthquake on Sales_:
-  - Sales Before Earthquake (Left Side of Vertical Line): Before the earthquake, sales seem to be following a declining pattern with some fluctuations but no major disruptions.
-  - Sales After Earthquake (Right Side of Vertical Line): Immediately following the earthquake (to the right of the vertical line), there is a noticeable shift in the sales pattern. Sales increase significantly, indicating a surge in purchasing activity as people buy more items in response to the event.
-  - Post-Earthquake Trend: The trend line after the earthquake shows an upward trajectory, suggesting a significant increase in sales. Over the subsequent days, sales data eventually return to the declining pattern observed before the earthquake.
+   - Sales Before Earthquake (Left Side of Vertical Line): Before the earthquake, sales seem to be following a declining pattern with some fluctuations but no major disruptions.
+   - Sales After Earthquake (Right Side of Vertical Line): Immediately following the earthquake (to the right of the vertical line), there is a noticeable shift in the sales pattern. Sales increase significantly, indicating a surge in purchasing activity as people buy more items in response to the event.
+   - Post-Earthquake Trend: The trend line after the earthquake shows an upward trajectory, suggesting a significant increase in sales. Over the subsequent days, sales data eventually return to the declining pattern observed before the earthquake.
 4.  _Are certain groups of stores selling more products?_:
    - City Analysis: Quito stands out among the cities with significantly higher total sales compared to others, making it the top-performing city in terms of sales. Guayaquil follows with substantial but lower total sales. This indicates that Quito and Guayaquil are key revenue-generating cities for the stores.
 
