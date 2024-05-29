@@ -1,3 +1,0 @@
-## LP3 Time Series Regression Analysis - Corporation Favorita
-
-This repository contains the code and resources for time series regression analysis conducted on Corporation Favorita's data. Corporation Favorita is a leading retailer, and this analysis aims to uncover insights into their sales patterns over time using advanced regression techniques. The project focuses on understanding the relationships between various factors such as seasonality, promotional events, and external influences on sales performance. Through this analysis, we seek to provide actionable insights to optimize sales strategies and improve overall business performance.
