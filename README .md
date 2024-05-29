@@ -27,7 +27,7 @@
 
 # Corporation Favorita Time Series Analysis <a name="about-project"></a>
 
-**# Corporation Favorita: Time Series Regression Analysis** Corporation Favorita, a leading Ecuadorian grocery retailer, aims to mitigate the risk of stockouts and excess inventory costs by developing a machine learning model to predict the likelihood of products running out of stock. Understanding the key indicators of low stock levels and implementing effective inventory management strategies are crucial for maintaining customer satisfaction and maximizing profitability.
+**Corporation Favorita: Time Series Regression Analysis** Corporation Favorita, a leading Ecuadorian grocery retailer, aims to mitigate the risk of stockouts and excess inventory costs by developing a machine learning model to predict the likelihood of products running out of stock. Understanding the key indicators of low stock levels and implementing effective inventory management strategies are crucial for maintaining customer satisfaction and maximizing profitability.
 
 1. **date**: date the sales were made
 
@@ -118,6 +118,7 @@ The analysis of the Corporation Favorita store using the three separate data sor
    - Sales After Earthquake (Right Side of Vertical Line): Immediately following the earthquake (to the right of the vertical line), there is a noticeable shift in the sales pattern. Sales increase significantly, indicating a surge in purchasing activity as people buy more items in response to the event.
    - Post-Earthquake Trend: The trend line after the earthquake shows an upward trajectory, suggesting a significant increase in sales. Over the subsequent days, sales data eventually return to the declining pattern observed before the earthquake.
 4.  _Are certain groups of stores selling more products?_:
+
    - City Analysis: Quito stands out among the cities with significantly higher total sales compared to others, making it the top-performing city in terms of sales. Guayaquil follows with substantial but lower total sales. This indicates that Quito and Guayaquil are key revenue-generating cities for the stores.
 
    - Cluster Analysis: Cluster 14 is the cluster with the highest total sales, as seen by the fact that it leads the group with the highest overall sales when sales by cluster are examined. While at a slightly lower level, clusters 6, 8, 11, and 10 also exhibit strong performance. This analysis demonstrates how sales success varies throughout the various clusters, with Cluster 14 clearly setting the standard.
@@ -127,6 +128,7 @@ The analysis of the Corporation Favorita store using the three separate data sor
    - Store Type Analysis: Among the store types, stores A and D lead in total sales, indicating that they generate the highest revenue. Store C, B and E also perform well, but at a lower level. This analysis underscores the impact of store type on sales, with A and B stores significantly outperforming others in terms of revenue generation.
 
    - In conclusion, this analysis can guide strategic decision-making for store management, helping them focus resources and efforts on high-performing groups to further enhance sales and overall profitability.
+   
 5. _Are sales affected by promotions, oil prices and holidays_
    - Sales vs Promotions: The number of promotions on a particular product or in a particular store had a significant impact on sales. This further disproves our null hypothesis that product promotions has no significant impact on sales
 
