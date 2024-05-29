@@ -27,7 +27,7 @@
 
 # Corporation Favorita Time Series Analysis <a name="about-project"></a>
 
-**# Corporation Favorita: Time Series Regression Analysis** Corporation Favorita, a leading Ecuadorian grocery retailer, aims to mitigate the risk of stockouts and excess inventory costs by developing a machine learning model to predict the likelihood of products running out of stock. Understanding the key indicators of low stock levels and implementing effective inventory management strategies are crucial for maintaining customer satisfaction and maximizing profitability.
+**Corporation Favorita: Time Series Regression Analysis** Corporation Favorita, a leading Ecuadorian grocery retailer, aims to mitigate the risk of stockouts and excess inventory costs by developing a machine learning model to predict the likelihood of products running out of stock. Understanding the key indicators of low stock levels and implementing effective inventory management strategies are crucial for maintaining customer satisfaction and maximizing profitability.
 
 1. **date**: date the sales were made
 
